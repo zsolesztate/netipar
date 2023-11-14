@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\ContactsEmails;
+
 use Illuminate\Http\Request;
+use App\Models\ContactsEmails;
 
 class ContactsEmailsController extends Controller
 {
@@ -12,7 +13,7 @@ class ContactsEmailsController extends Controller
      */
     public function index()
     {
-        //
+        
     }
 
     /**
@@ -31,35 +32,5 @@ class ContactsEmailsController extends Controller
         //
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(ContactsEmails $contactsEmails)
-    {
-        //
-    }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(ContactsEmails $contactsEmails)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, ContactsEmails $contactsEmails)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(ContactsEmails $contactsEmails)
-    {
-        //
-    }
 }

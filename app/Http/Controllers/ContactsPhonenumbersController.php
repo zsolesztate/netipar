@@ -12,7 +12,7 @@ class ContactsPhonenumbersController extends Controller
      */
     public function index()
     {
-        //
+        return ContactsPhonenumbers::all();
     }
 
     /**

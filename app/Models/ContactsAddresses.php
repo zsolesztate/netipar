@@ -18,4 +18,5 @@ class ContactsAddresses extends Model
     {
         return $this->belongsTo(Contacts::class);
     }
+
 }

@@ -17,4 +17,6 @@ class ContactsPhonenumbers extends Model
     {
         return $this->belongsTo(Contacts::class);
     }
+
+    
 }
