@@ -56,13 +56,10 @@
           </ol>
       </div>
     </div>
+      <div v-else>
+        Nincsennek kontaktok.
+      </div>
   </div>
-
-
-
-  
-
-
 </template>
 
 <script>
