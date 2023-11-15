@@ -112,6 +112,7 @@ export default {
             try {
                 const response = await axios.post('/api/contacts', this.formData, config);
                 console.log('Response data:', response.data); 
+                  window.location.href = '/';
                // this.$router.push('/');
             } catch (error) {
                 if (error.response.status === 422) {
